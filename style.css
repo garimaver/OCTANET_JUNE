@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+.content {
+    background: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.content h1 {
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 25px;
+    font-weight: 25px;
+    letter-spacing: normal;
+    color: #1a1717;
+    line-height: 1.5;
+}
+
+.navbar .logo img {
+    width: 100px;
+}
+
+.navbar {
+    display: inline-block;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    height: 25px;
+    background-color: rgb(194, 43, 43);
+}
+
+.navbar li {
+    color: black;
+    display: inline-block;
+    font-size: 23px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: beige;
+}
+
+.navbar i {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar i:hover {
+    background-color: beige;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c32020;
+    color: #1a1717;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: beige;
+}
+
+.foot-panel2 {
+    background-color: beige;
+    color: #1a1717;
+    font-weight: bold;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+.foot-panel2 ul a {
+    display: block;
+    margin-top: 10px;
+    color: #1a1717;
+    font-size: 1rem;
+}
+
+h2 {
+    margin-top: 25px;
+    font-size: 34px;
+    text-align: center;
+}
+
+.image-row {
+    display: flex;
+    background-color: (lavenderblush);
+}
+
+.image-row img {
+    width: 150px;
+    height: 250px;
+    margin-right: 50px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+}
+
+.img p {
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    background-color: rgb(194, 43, 43);
+    padding: 20px;
+    text-align: center;
+    color: #1a1717;
+    font-size: 20px;
+    font-weight: bold;
+}
